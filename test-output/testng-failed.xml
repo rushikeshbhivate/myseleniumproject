@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ERP.TestCases.TC_CreateNewRFQ">
+      <class name="com.ERP.TestCases.TC_CreateOE">
         <methods>
+          <include name="createNewOE"/>
           <include name="setUp"/>
-          <include name="createNewRFQ"/>
         </methods>
-      </class> <!-- com.ERP.TestCases.TC_CreateNewRFQ -->
+      </class> <!-- com.ERP.TestCases.TC_CreateOE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
