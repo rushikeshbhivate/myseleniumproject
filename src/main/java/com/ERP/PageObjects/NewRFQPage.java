@@ -120,7 +120,7 @@ public class NewRFQPage {
 				}
 
 				catch (Exception e) {
-					System.out.println("Exception whilw clicking: " +e.getMessage());
+					System.out.println("Exception while clicking: " +e.getMessage());
 				}
 			}
 		}
